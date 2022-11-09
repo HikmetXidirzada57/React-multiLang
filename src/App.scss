@@ -1,0 +1,18 @@
+section {
+  margin: 5rem 0;
+  padding: 2rem 0;
+}
+
+.category-list {
+  margin: 3rem 0;
+  .category-item {
+    a {
+      background: linear-gradient(rgb(4, 104, 104), rgb(152, 152, 152));
+      padding: 8em 2em;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    }
+  }
+}
