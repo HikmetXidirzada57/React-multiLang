@@ -14,7 +14,6 @@ function App() {
         <MyRoute />
       </ChakraProvider>
       <Footer />
-
     </BrowserRouter>
   );
 }
