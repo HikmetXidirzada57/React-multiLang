@@ -13,7 +13,7 @@ function App() {
       <ChakraProvider>
         <MyRoute />
       </ChakraProvider>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

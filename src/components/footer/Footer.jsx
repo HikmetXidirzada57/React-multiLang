@@ -1,4 +1,4 @@
-import { AppBar, Container, Grid, Typography } from '@mui/material'
+import { Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import "./footer.scss"
 const Footer = () => {

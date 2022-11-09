@@ -4,6 +4,7 @@ import { useState } from "react";
 import MainPanel from "../main-panel/MainPanel";
 import "./add-product.scss";
 const AddProduct = () => {
+  
   const languageList = [
     { id: 1, langKey: "AZ" },
     { id: 2, langKey: "EN" },
@@ -13,7 +14,7 @@ const AddProduct = () => {
   const [price, setPrice] = useState(0);
   const [inStock, setInStock] = useState(0);
   const [languageInput, setLanguageInput] = useState([]);
-  
+
   const onHandleLangChange = useCallback((dataInfo) => {
     let data = {
       name: dataInfo.name,
